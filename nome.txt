@@ -1,0 +1,4 @@
+nome=input(('Digite seu nome: '))
+sobrenome=input(('Digite seu sobrenome: '))
+ultima_letra = len(sobrenome) - 1
+print(sobrenome[0],sobrenome[ultima_letra],"," ,nome,sep='')
