@@ -1,0 +1,13 @@
+# Ler os valores das notas como floats
+nota_A = float(input())
+nota_B = float(input())
+
+# Definir os pesos
+peso_A = 3.5
+peso_B = 7.5
+
+# Calcular a média ponderada
+media_ponderada = ((nota_A * peso_A) + (nota_B * peso_B)) / (peso_A + peso_B)
+
+# Imprimir o resultado com 5 dígitos após a vírgula e espaço em branco antes e depois do sinal de igual
+print("MEDIA = {:.5f}".format(media_ponderada))
