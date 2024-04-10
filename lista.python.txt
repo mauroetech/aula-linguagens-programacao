@@ -1,0 +1,6 @@
+nome= input('Digite sua nome:   ')
+idade= int(input('Digite sua idade:   '))
+altura= float (input('Digite sua altura:   '))
+bairro= input('Digite seu bairro:   ')
+lista_de_dados =[nome,idade,altura,bairro]
+print (lista_de_dados)
