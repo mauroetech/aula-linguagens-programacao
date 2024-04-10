@@ -1,0 +1,7 @@
+nome = input("Digite o nome: ")
+sobrenome = input("Digite o sobrenome: ")
+
+nome_formatado = nome[0].lower()+ 'AURO'
+sobrenome_formatado = sobrenome[0].upper() + 'oares'
+
+print("Nome formatado:", nome_formatado, sobrenome_formatado)
