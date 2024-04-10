@@ -1,0 +1,4 @@
+nome = input("Digite o nome: ")
+sobrenome = input("Digite o sobrenome: ")
+print(nome[0].lower() + nome[1:].upper())
+print(sobrenome[0].upper() + sobrenome[1:].lower())
