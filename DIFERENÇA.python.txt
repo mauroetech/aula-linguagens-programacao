@@ -1,0 +1,11 @@
+# Ler os quatro valores inteiros
+A = int(input())
+B = int(input())
+C = int(input())
+D = int(input())
+
+# Calcular a diferença do produto A * B - C * D
+diferenca = (A * B) - (C * D)
+
+# Imprimir a diferença
+print("DIFERENCA =", diferenca)
