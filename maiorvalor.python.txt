@@ -1,0 +1,16 @@
+# Função para encontrar o maior entre três números
+def encontrar_maior(a, b, c):
+    maior = (a + b + abs(a - b)) // 2
+    maior = (maior + c + abs(maior - c)) // 2
+    return maior
+
+# Pedir ao usuário para inserir os três valores inteiros
+a = int(input("Digite o primeiro valor inteiro: "))
+b = int(input("Digite o segundo valor inteiro: "))
+c = int(input("Digite o terceiro valor inteiro: "))
+
+# Chamar a função para encontrar o maior valor
+maior_valor = encontrar_maior(a, b, c)
+
+# Imprimir o maior valor
+print(f"O maior valor entre {a}, {b} e {c} é: {maior_valor} eh o maior.")
