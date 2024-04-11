@@ -1,0 +1,11 @@
+# Pedir ao usuário para inserir os três valores inteiros
+a = int(input("Digite o primeiro valor inteiro: "))
+b = int(input("Digite o segundo valor inteiro: "))
+c = int(input("Digite o terceiro valor inteiro: "))
+
+# Calcular o maior valor entre a, b, e c
+maior = (a + b + abs(a - b)) // 2
+maior = (maior + c + abs(maior - c)) // 2
+
+# Imprimir o maior valor
+print("O maior valor entre {}, {} e {} é: {} eh o maior.".format(a, b, c, maior))
