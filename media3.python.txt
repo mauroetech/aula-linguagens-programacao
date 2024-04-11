@@ -1,0 +1,18 @@
+notas = []
+i=1
+nota =float(input('Nota[0]:'))
+while nota!= -1:
+    #adiciona os itens na lista
+    notas.append(nota)
+    print('Todas as Notas  ',notas)
+    #exibe algo assim  "nota[1]:", "nota[2]:",
+    nota = float(input('Nota['+str(i)+']:'))
+    
+    i+=1
+media = sum(notas) / len(notas)
+print('Media:  ', media)
+if media >= 7:
+
+    print('Status: Aprovado')
+else:
+    print('Reprovado')
