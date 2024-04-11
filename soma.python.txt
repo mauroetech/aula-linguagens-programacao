@@ -1,0 +1,14 @@
+notas = []
+
+for i in range(0, 10):
+    nota = float(input('nota['+str(i)+']:'))
+    notas.append(nota)
+
+soma = sum(notas)
+
+media = soma / len(notas)
+
+if media >= 7:
+    print('Aprovado')
+else:
+    print('Reprovado')
